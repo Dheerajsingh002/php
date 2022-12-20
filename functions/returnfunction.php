@@ -8,11 +8,12 @@
 </head>
 <body>
     <?php
-    define(num,500,true);
+    function sub($a,$b)
+    {
+        $result=$a-$b;
+        return $result;
+    }
+    echo sub(30,10);
     ?>
 </body>
 </html>
-//define(name,value,case-insensitive)
-<!-- define(_num,500,true);
-can't use $ sign with constant variable namespace
-Constant Variable ar4e Global Variables -->

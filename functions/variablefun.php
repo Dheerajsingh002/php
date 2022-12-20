@@ -8,11 +8,14 @@
 </head>
 <body>
     <?php
-    define(num,500,true);
+    $a=function($a,$b)
+    {
+        return $a+$b;
+
+    };
+    $res=$a(10,20);
+    echo $res;
     ?>
+    
 </body>
 </html>
-//define(name,value,case-insensitive)
-<!-- define(_num,500,true);
-can't use $ sign with constant variable namespace
-Constant Variable ar4e Global Variables -->

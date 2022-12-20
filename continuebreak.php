@@ -5,6 +5,6 @@ for($a=1;$a<=10;$a++)
     {
         break;
     }
-    echo a;
+    echo $a;
 }
 ?>

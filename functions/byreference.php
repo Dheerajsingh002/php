@@ -8,11 +8,19 @@
 </head>
 <body>
     <?php
-    define(num,500,true);
+    function hello($a) //by value
+    {
+        return "Hello Php";
+    }
+    function hello1(&$a) //by reference
+    {
+        return "Hello Php";
+    }
+    $str="hello my name is dheeraj";
+   
+    echo  hello1($str);
+
     ?>
+    
 </body>
 </html>
-//define(name,value,case-insensitive)
-<!-- define(_num,500,true);
-can't use $ sign with constant variable namespace
-Constant Variable ar4e Global Variables -->

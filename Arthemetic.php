@@ -16,9 +16,13 @@
     $F=$a/$b;
     $G=$a%$b;
     echo $c;
+    echo "<br>";
     echo $D;
+    echo "<br>";
     echo $E;
+    echo "<br>";
     echo $F;
+    echo "<br>";
     echo $G;
     
     ?>
