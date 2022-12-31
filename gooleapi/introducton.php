@@ -27,6 +27,11 @@
     };
     var map=new google.maps.Map(document.getElementById("map"),mapOptions);
     map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+    // var marker1Options={
+    //     position:{lat:51.5,lng:-0.1},
+    //     map: map;
+    // }
+    // var marker1=new google.maps.Marker(marker1Options);
    </script>
     
 </body>
